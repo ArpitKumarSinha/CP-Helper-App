@@ -1,0 +1,4 @@
+#Mon Apr 22 14:41:03 IST 2024
+base.0=C\:\\src\\cp_app\\finapp\\cp_help\\build\\app\\intermediates\\dex\\release\\minifyReleaseWithR8\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

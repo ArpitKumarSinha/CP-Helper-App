@@ -1,0 +1,10 @@
+^C:\SRC\CP_APP\FINAPP\CP_HELP\BUILD\WINDOWS\X64\_DEPS\NUGET-SUBBUILD\CMAKEFILES\ED6A78993A796B1BA5860C69B3BD29B0\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/src/cp_app/finapp/cp_help/build/windows/x64/_deps/nuget-subbuild -BC:/src/cp_app/finapp/cp_help/build/windows/x64/_deps/nuget-subbuild --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/src/cp_app/finapp/cp_help/build/windows/x64/_deps/nuget-subbuild/nuget-populate.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
